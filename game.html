@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+<body>
+<script type="text/javascript">
+
+<!-- Program prompts user with question, stores user input in variable answer -->
+
+  var answer = prompt("Can you guess what programming language the library 'jQuery' belongs to?");
+
+<!-- if/else statement runs to check user input -->
+
+  if (answer.toUpperCase = "JAVASCRIPT") {
+    alert("That is correct. jQuery is a " + answer + " library.");
+    answer = true;
+  } else {
+    alert("Sorry, that is not correct.");
+    answer = false;
+  }
+
+  var answer2 = prompt("Good job! Now can you guess what programming language 'Sass' builds upon?");
+  if (answer2.toUpperCase = "CSS") {
+    alert("That is correct again! Sass is an extension of CSS that adds power and elegance to the basic language.");
+    answer2 = true;
+  } else {
+    alert("Sorry, that is not correct.");
+    answer2 = false;
+  }
+
+  var answer3 = prompt("Last question. What company does the framework 'Bootstrap' belong to?");
+  if (answer3.toUpperCase = "TWITTER") {
+    alert("Yes! Twitter is the owner of the Bootstrap framework.");
+    answer3 = true;
+  } else {
+    alert("Sorry, that is not correct.");
+    answer3 = false;
+  }
+
+<!-- if/else statement lets user know if all questions were answered correctly or not -->
+
+  if (answer && answer2 && answer3 === true) {
+    alert("Congrats! You got 3 out of 3 questions correct!");
+  } else {
+    alert("Sorry, you didn't pass. You got 2 or less questions correct. Try again.");
+  }
+
+
+</script>
+</body>
