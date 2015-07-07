@@ -1,3 +1,4 @@
 # guessing_game
 
-Answer these three questions about Programming languages!
+Answer these four questions about Programming languages!
+You must get them all correct to pass.
